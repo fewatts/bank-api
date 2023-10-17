@@ -1,45 +1,45 @@
-# API de Crédito e Clientes
+# Credit and Customers API
 
-Este é o projeto da API de Crédito e Clientes.
+This is the Credit and Customers API project.
 
-## 📖 Descrição
+## 📖 Description
 
-O projeto da API de Crédito e Clientes é uma solução que permite o gerenciamento de informações de créditos e clientes. Ele oferece recursos para criar, atualizar, listar e excluir créditos e clientes. A API é construída com Spring Boot, Gradle e MySQL, proporcionando uma base sólida para o desenvolvimento e implantação de aplicações.
+The Credit and Customers API project is a solution that allows the management of credit and customer information. It provides features to create, update, list, and delete credits and customers. The API is built with Spring Boot, Gradle, and MySQL, providing a solid foundation for application development and deployment.
 
-## ✨ Funcionalidades
+## ✨ Features
 
-A API oferece as seguintes funcionalidades:
+The API offers the following features:
 
-- **Criar Crédito:** Permite a criação de novos créditos associados a um cliente.
+- **Create Credit:** Allows the creation of new credits associated with a customer.
 
-- **Listar Créditos por Cliente:** Retorna a lista de créditos de um cliente com base no ID do cliente.
+- **List Credits by Customer:** Retrieves the list of credits for a customer based on the customer's ID.
 
-- **Obter Crédito por Código:** Recupera os detalhes de um crédito com base no código do crédito e no ID do cliente.
+- **Get Credit by Code:** Retrieves the details of a credit based on the credit code and customer ID.
 
-- **Criar Cliente:** Possibilita o registro de novos clientes.
+- **Create Customer:** Enables the registration of new customers.
 
-- **Listar Cliente por ID:** Obtém os detalhes de um cliente com base no ID do cliente.
+- **List Customer by ID:** Retrieves the details of a customer based on the customer's ID.
 
-- **Atualizar Cliente:** Atualiza as informações de um cliente com base no ID do cliente.
+- **Update Customer:** Updates customer information based on the customer's ID.
 
-- **Deletar Cliente:** Exclui um cliente com base no ID do cliente.
+- **Delete Customer:** Deletes a customer based on the customer's ID.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - Spring Boot
 - Gradle
 - MySQL
 
-## 🚀 Inicialização
+## 🚀 Initialization
 
-Para executar o projeto localmente, siga estas etapas:
+To run the project locally, follow these steps:
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
-   git clone https://seurepositorio.com/api-credito-clientes.git
-1. Entre na pasta do projeto:
+   git clone https://yourrepository.com/api-credit-customers.git
+
+1. Navigate to the project folder:
 
    ```bash
    ./gradlew bootRun
-
